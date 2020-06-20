@@ -1,0 +1,47 @@
+/*#loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	overflow: visible;
+	background-color: #fff;  #21242d;
+	background-image: url('img/ChorizosRotando.gif') no-repeat center;
+	z-index: 1;
+}*/
+
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%; 
+	height: 100vh;
+	background-size: cover;
+}
+
+#loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	overflow: visible;
+	background: url('Chorizos.gif') no-repeat center center;
+}
+
+
+.navbar-fixed {
+	position: absolute;
+	z-index:999999999;
+}
+
+.slider-holder{
+	position: relative;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
