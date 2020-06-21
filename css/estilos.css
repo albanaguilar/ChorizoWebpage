@@ -8,18 +8,69 @@
 	z-index: 1;
 }*/
 
-html, body{
+/*html, body{
 	margin: 0;
 	padding: 0;
 	width: 100%; 
 	height: 100vh;
+	font-size: 62.5%;
 	background-size: cover;
+}*/
+
+html{
+	box-sizing: border-box;
 }
+
+body{
+	font-size: 1.60rem;
+	line-height: 2;
+}
+
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+
+h1{
+	font-size: 3.8rem;
+}
+
+h2{
+	font-size: 3.4rem;
+}
+
+h3{
+	font-size: 3rem;
+}
+
+h4{
+	font-size: 2.60rem;
+}
+
+.contenedor-video{
+	max-width: 120rem;
+	margin-left: auto;
+	width: 100%;
+	margin-right: auto;
+	/*padding-top: 100vh;*/
+}
+
+.contenedor{
+	max-width: 120rem;
+	margin-left: auto;
+	width: 95%;
+	margin-right: auto;
+	/*padding-top: 100vh;*/
+}
+
+.display-block{
+	display: block!important;
+}
+
 
 #loader{
 	position: fixed;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	z-index: 1;
 	overflow: visible;
 	background: url('Chorizos.gif') no-repeat center center;
@@ -28,13 +79,77 @@ html, body{
 
 .navbar-fixed {
 	position: absolute;
-	z-index:999999999;
+	z-index:9999;
+}
+
+.navbar-material .nav-wrapper .brand-logo img {
+    height: 64px;
+}
+
+.logo{
+	max-height: 6rem;
+}
+
+.navbar-brand {
+
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 64px;
+  padding: 0px;
+  width: auto; 
 }
 
 .slider-holder{
-	position: relative;
 	z-index: -1;
+	height: 100vh;
 }
+
+header{
+	z-index: 9;
+}
+
+/* UTILIDADES */
+.text-center{
+	text-align: center;
+}
+
+.seccion{
+	/*margin-top: 2rem;*/
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+/* ICONOS NOSOTROS */
+@media (min-width: 768px) {
+	.iconos-nosotros{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.icono{
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.icono{
+		flex-basis: calc(33.33% - 1rem);
+	}
+}
+
+.icono h3{
+	text-transform: capitalize;
+}
+
+
+.slider-espacio{
+	height: 100vh;
+}
+
+/* BOTONES */
+
+
 
 
 

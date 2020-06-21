@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<link rel="icon" type="image/png" href="img/Cerdito.ico">
 	<title>Productos San José</title>
 	<link rel="" type="text/css" href="">
 	<meta charset="utf-8">
@@ -24,10 +25,13 @@
 <!-- CONTENT OF WEBPAGE -->
 <div id="content">
 	<header>
-		<div>
+		<div class="slider-espacio">
+			<!-- BARRA DE NAVEGACION-->
 		    <nav class="transparent">
 			    <div class="nav-wrapper">
-			      <a href="#!" class="brand-logo">Logo</a>
+			      <a href="#!" class="brand-logo logo navbar-brand">
+			      	<img src="LogoProsajo.svg" class="responsive-img">
+			      </a>
 			      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			      <ul class="right hide-on-med-and-down">
 			        <li><a href="nosotros.html">Nosotros</a></li>
@@ -38,13 +42,13 @@
 			</nav>
 
 		  	<ul class="sidenav" id="mobile-demo">
-		    	<li><a href="sass.html">Sass</a></li>
-		    	<li><a href="badges.html">Components</a></li>
-		    	<li><a href="collapsible.html">Javascript</a></li>
-		    	<li><a href="mobile.html">Mobile</a></li>
+		    	<li><a href="nosotros.html">Nosotros</a></li>
+			    <li><a href="productos.html">Productos</a></li>
+			    <li><a href="contacto.html">Contacto</a></li>
 		  	</ul>
+		<!-- FIN BARRA DE NAVEGACION-->
 
-
+		<!-- CAROUSEL - SLIDER -->
 		<div class="slider carousel-slider fullscreen slider-holder">
 			<ul class="slides">
 				<!-- Segunda foto -->
@@ -57,14 +61,14 @@
 				</li>
 
 				<!-- Tercera foto -->
-				<li>
+				<!-- <li>
 					<img src="img/slider/Producto03.jpg">
 					<div class="caption center-align">
 			          <h3>This is our big Tagline!</h3>
 			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 			        </div>
 				</li>
-
+ -->
 				<!-- Cuarta foto -->
 				<li>
 					<img src="img/slider/Producto04.jpg">
@@ -86,15 +90,28 @@
 		</div>
 		</div>
 	</header>
+	<!-- FIN CAROUSEL - SLIDER -->
 
-	<section class="contenedor seccion" id="nosotros">
-		<H2 class=" fw300 text-center">Mas sobre nosotros</H2>
+<!-- img/video/anuncio_chav.mp4 -->
+	<section class="seccion">
+		<video class="contenedor-video" controls>
+			<source src="anuncio_chav.webm" media="all and (max-width: 1200px)">
+			<source src="anuncio_chav.mp4" media="all and (max-width: 1200px)">
+				Your browser does not support the video tag
+		</video>
+		<h2>FIN VIDEP</h2>
+	</section>
+
+
+	<!-- NOSOTROS -->
+	<section class="contenedor seccion">
+		<H2 class=" text-center">Conoce más sobre nosotros</H2>
 
 		<div class="iconos-nosotros">
 			<div class="icono">
-				<img src="img/iconos/IconoDinero.svg">
-				<h3>Seguridad</h3>
-				<p>text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essential</p>
+				<img src="img/iconos/IconoMexico.svg">
+				<h3>Empresa 100% Mexicana</h3>
+				<p>Nuestra empresa es orgullosamente mexicana, todos nuestros ingredientes, empleados, y personal administrativo apoyamos a las familias mexicanas y a la economia nacional.</p>
 			</div>
 
 			<div class="icono">
@@ -104,13 +121,16 @@
 			</div>
 
 			<div class="icono">
-				<img src="img/iconos/IconoMexico.svg">
+				<img src="img/iconos/IconoDinero.svg">
 				<h3>A tiempo</h3>
 				<p>text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essential</p>
 			</div>
 		</div>
 	</section>
+	<!-- FIN NOSOTROS -->
 </div>
+
+
 
 
 	<!-- Header -->

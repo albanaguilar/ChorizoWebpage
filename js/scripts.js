@@ -38,6 +38,26 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 // END SLIDER
 
+//SCROLL VIDEO PLAY
+var chav = document.getElementById('video-chav');
+
+// init controller
+var controller = new ScrollMagic.Controller();
+
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: "#video-chav", duration: 200})
+        .addTo(controller)
+        .addIndicators() // add indicators (requires plugin)
+
+        .on("enter", function () {
+          chav.play();
+        })
+        .on("leave", function () {
+          chav.pause();
+        })
+//END SCROLL VIDEO PLAY
+
+
 
 
 

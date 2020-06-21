@@ -1,0 +1,12 @@
+**** INDEX ****
+
+-Quitar borde de barra de navegacion
+
+-Cambiar tipografia
+
+-cambiar tamaño letra barra de navegacion
+
+-agregar logo a barra de navegacion
+
+-Quitar espacio entre header y seccion h2
+
