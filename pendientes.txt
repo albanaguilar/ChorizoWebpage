@@ -6,7 +6,8 @@
 
 -cambiar tamaño letra barra de navegacion
 
--agregar logo a barra de navegacion
+-cambiar color boton productos
 
--Quitar espacio entre header y seccion h2
+-agregar redes sociales a footer
 
+-cambiar imagen contacto

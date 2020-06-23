@@ -2583,10 +2583,10 @@ html {
           box-sizing: border-box;
 }
 
-*, *:before, *:after {
+/**, *:before, *:after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
+  box-sizing: inherit;
+} COMENTAMOS ESTO A VER SI FUNCIONA*/
 
 button,
 input,

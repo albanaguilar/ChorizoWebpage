@@ -38,29 +38,27 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 // END SLIDER
 
-//SCROLL VIDEO PLAY
-var chav = document.getElementById('video-chav');
+//IMAGE MATERIALBOXED
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
+// END IMAGE MATERIALBOXED
 
-// init controller
-var controller = new ScrollMagic.Controller();
+//PARALLAX EFFECT
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems);
+  });
+//END PARALLAX EFFECT
 
-// build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#video-chav", duration: 200})
-        .addTo(controller)
-        .addIndicators() // add indicators (requires plugin)
+//FAQ
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems);
+  });
 
-        .on("enter", function () {
-          chav.play();
-        })
-        .on("leave", function () {
-          chav.pause();
-        })
-//END SCROLL VIDEO PLAY
-
-
-
-
-
+// END FAQ
 
 
 
