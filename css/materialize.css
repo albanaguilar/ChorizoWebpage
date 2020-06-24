@@ -4309,6 +4309,7 @@ nav .nav-wrapper {
   height: 100%;
 }
 
+/* A ver Si se regresan los puntitos*/ 
 @media only screen and (min-width: 993px) {
   nav a.sidenav-trigger {
     display: none;
@@ -8344,7 +8345,7 @@ input[type=range]::-ms-thumb {
 /* CAMBIE DISPLAY DE INDICADORES DE ELEMENTO A NONE*/
 .slider .indicators .indicator-item {
   /*display: inline-block;*/
-  display: none;
+  display: inline-block;
   position: relative;
   cursor: pointer;
   height: 16px;

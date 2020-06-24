@@ -11,3 +11,5 @@
 -agregar redes sociales a footer
 
 -cambiar imagen contacto
+
+-Cambiar imagen nosotros

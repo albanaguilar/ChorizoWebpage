@@ -60,7 +60,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // END FAQ
 
-
+//MODALS
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });
+// END MODALS
 
 
 
