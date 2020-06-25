@@ -2598,6 +2598,8 @@ textarea {
 
 ul:not(.browser-default) {
   padding-left: 0;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
   list-style-type: none;
 }
 
@@ -4396,11 +4398,12 @@ nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+/* CAMBIE EL COLOR DE LAS LETRAS DE LA NAV Y EL COLOR*/
 nav ul a {
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
-  font-size: 1rem;
-  color: #fff;
+  font-size: 2.2rem;
+  color: #000;
   display: block;
   padding: 0 15px;
   cursor: pointer;

@@ -36,22 +36,29 @@ body{
 
 h1{
 	font-size: 3.8rem;
+	font-family: 'Patua One', cursive;
 }
 
 h2{
 	font-size: 3.4rem;
+	font-family: 'Patua One', cursive;
 }
 
 h3{
 	font-size: 3rem;
+	font-family: 'Patua One', cursive;
 }
 
 h4{
 	font-size: 2.60rem;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 400;
 }
 
 p{
 	font-size: 1.8rem;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 400;
 }
 
 /* UTILIDADES */
@@ -164,6 +171,7 @@ header{
 	font-weight: 700;
 	text-decoration: none;
 	font-size: 1.8rem;
+	font-family: 'Patua One', cursive;
 	padding: 1rem 3rem;
 	display: inline-block;
 	text-align: center;
@@ -186,8 +194,8 @@ header{
 	background-color: #E08709;
 }
 
-.boton-verde{
-	background-color: #71B100;
+.boton-amarillo-wid{
+	background-color: #E08709;
 	width: 100%;
 }
 
@@ -241,7 +249,7 @@ header{
 
 /*. CONTACTO HOME */
 .imagen-contacto{
-	background-image: url(../img/FotosDeProductos/Productos/Productos_07.jpg);
+	background-image: url(../img/FondoDeChorizos/FondoDeChorizos.jpg);
 	height: 30rem;
 	background-position: center center;
 	background-size: cover;
@@ -278,7 +286,7 @@ header{
 
 /* FOOTER */
 .footer-basic-centered{
-	background-color: #55565a;
+	background-color: #fa8d33;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
@@ -327,7 +335,7 @@ header{
 	}
 }
 .color-barra{
-	background-color: #f97e1a;
+	background-color: #fa8e33;
 }
 
 /* CONTACTO.HTML */
@@ -413,4 +421,52 @@ header{
 
 .margin0{
 	margin:0;
+}
+
+.fondo-c{ 
+  	background: url(../img/FondoDeChorizos/ChorizoBlanco_Diagonal.jpg) no-repeat center center ; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.fondo-contacto-texto{
+	background-color: #fff;
+
+}
+
+.navbar-material .nav-wrapper .brand-logo img {
+    height: 98px;
+}
+
+.wid-max-contacto{
+	width: 50%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.paddin3{
+	padding:0 3rem;
+}
+
+.wid-max-nosotros{
+	width: 20%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.float-elements{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li a{
+  color: #fff;
+} 
+
+.fw-light{
+	font-weight: lighter;
 }

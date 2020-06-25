@@ -1,10 +1,6 @@
 **** INDEX ****
 
--Quitar borde de barra de navegacion
-
 -Cambiar tipografia
-
--cambiar tamaño letra barra de navegacion
 
 -cambiar color boton productos
 
